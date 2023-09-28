@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Feedback</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <span>StudySets</span>
+      <a id="home" href="index.html">home</a>
+      <a id="library" href="library.html">your library</a>
+      <input type="text" placeholder="Search.." />
+      <div class="logBtn" id="log-button">log-in</div>
+    </nav>
+
+    <div id="modal">
+      <div id="modal-click-background" class="close"></div>
+      <div class="modal-content-holder">
+        <div class="close-button close">x</div>
+
+        <form>
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username" /><br />
+          <label for="password">Password:</label><br />
+          <input type="text" id="password" name="password" />
+          <div class="submit-button close" id="submitBtn">submit</div>
+        </form>
+
+        <div class="close-cancel close"><span>close</span></div>
+      </div>
+    </div>
+  
+    <div id="app">
+      <div class="usernameCard">
+        <div class="userImg"></div>
+        <div class="userName"><h3>john_doe03</h3></div>
+      </div>
+      <nav id="nav2">
+        <a href="#">Achievements</a>
+        <a href="#">Study sets</a>
+        <a href="#">Magic Notes</a>
+        <a href="#">Expert Solutions</a>
+        <a href="#">Courses</a>
+        <a href="#">Folders</a>
+        <a href="#">Classes</a>
+      </nav>
+      <hr class="solid" />
+    
+      
+      <div class="study-date">
+        <h4>
+          IN DECEMBER 2022
+          <hr />
+        </h4>
+      </div>
+      <div class="studySet-container">
+        <div class="studySet">
+          <div class="recent" id="recent1">
+            <h4>Chapter 19</h4>
+            <p>15 terms</p>
+            <a href="#">View</a> 
+        </div>
+      </div>
+      <div class="studySet">
+        <div class="recent" id="recent1">
+          <h4>Chapter 20</h4>
+          <p>15 terms</p>
+          <a href="#">View</a> 
+      </div>
+      </div>
+      <div class="studySet">
+        <div class="recent" id="recent1">
+          <h4>Chapter 21</h4>
+          <p>15 terms</p>
+          <a href="#">View</a> 
+      </div>
+    </div>
+    <div class="studySet">
+      <div class="recent" id="recent1">
+        <h4>Chapter 22</h4>
+        <p>15 terms</p>
+        <a href="#">View</a> 
+    </div>
+    </div>
+    <div class="studySet">
+      <div class="recent" id="recent1">
+        <h4>Chapter 23</h4>
+        <p>15 terms</p>
+        <a href="#">View</a> 
+    </div>
+  </div>
+  <div class="studySet">
+    <div class="recent" id="recent1">
+      <h4>Chapter 24</h4>
+      <p>15 terms</p>
+      <a href="#">View</a> 
+  </div>
+  </div>
+  <div class="studySet">
+    <div class="recent" id="recent1">
+      <h4>Chapter 25</h4>
+      <p>15 terms</p>
+      <a href="#">View</a> 
+  </div>
+  </div>
+  <div class="studySet">
+  <div class="recent" id="recent1">
+    <h4>Chapter 26</h4>
+    <p>15 terms</p>
+    <a href="#">View</a> 
+  </div>
+  </div>
+      </div>
+    <div class="footer">&copy; StudySets 2023</div>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="model/model.js"></script>
+  </body>
+</html>

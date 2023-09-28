@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Feedback</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <span>StudySets</span>
+      <a id="home" href="index.html">home</a>
+      <a id="library" href="library.html">your library</a>
+      <input type="text" placeholder="Search.." />
+      <div class="logBtn" id="log-button">log-in</div>
+    </nav>
+
+    <div id="modal">
+      <div id="modal-click-background" class="close"></div>
+      <div class="modal-content-holder">
+        <div class="close-button close">x</div>
+
+        <form>
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username" /><br />
+          <label for="password">Password:</label><br />
+          <input type="text" id="password" name="password" />
+          <div class="submit-button close" id="submitBtn">submit</div>
+        </form>
+
+        <div class="close-cancel close"><span>close</span></div>
+      </div>
+    </div>
+
+    <div id="app">
+      <div class="findMaterial">
+        <h3>Find material for your courses</h3>
+        <p>See what people in your course are studying</p>
+      </div>
+      <div class="whatsNew">
+        <h3>What's New</h3>
+      </div>
+      <div class="card-holder">
+        <div class="card" id="card1">
+          <div class="cardCaption" id="cardCaption1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+        <div class="card" id="card2">
+          <div class="cardCaption" id="cardCaption2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <div class="cardCaption" id="cardCaption3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+      <div class="recentSets">
+        <h3>Recent</h3>
+      </div>
+      <div class="recent-holder">
+        <div class="recent" id="recent1">
+          <h4>Chapter 22</h4>
+          <p>15 terms</p>
+          <a href="#">View</a>
+        </div>
+        <div class="recent" id="recent1">
+          <h4>Chapter 19</h4>
+          <p>18 terms</p>
+          <a href="#">View</a>
+        </div>
+        <div class="recent" id="recent1">
+          <h4>Chapter 13</h4>
+          <p>17 terms</p>
+          <a href="#">View</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">&copy; StudySets 2023</div>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="model/model.js"></script>
+  </body>
+</html>
